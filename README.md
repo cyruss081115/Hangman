@@ -6,6 +6,7 @@ This is a Hangman game implemented in C++. In a Hangman game, there will be a se
 ### How to run game
 In the project directory, execute the following command in terminal
 >make
+
 >./play
 
 ### Sample Run
