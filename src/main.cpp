@@ -65,9 +65,11 @@ int main(int argc, const char * argv[]) {
         }
         
         if (guessState == 0) {
+            hm.printGame();
             cout << "You lose!" << " Secret word is: " << hm.getSecretWord() << endl;
             break;
         } else if (guessState == 1) {
+            hm.printGame();
             cout << "Bingo!" << " Secret word is: " << hm.getSecretWord() << endl;
             break;
         }
