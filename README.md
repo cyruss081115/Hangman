@@ -8,3 +8,5 @@ In the project directory, execute the following command in terminal
 > $ make
 
 > $ ./play
+
+Reference: CUHK CSCI1520, Spring 2021/22 Asm6 
