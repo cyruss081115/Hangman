@@ -43,7 +43,7 @@ Hangman:: Hangman(string fname, unsigned s) {
 
 string Hangman:: getSecretWord() {
 //    chances = 0;
-    if (secretWord == wordToGuess || chances < 0) {return secretWord;}
+    if (secretWord == wordToGuess || chances <= 0) {return secretWord;}
     else {return "";}
 }
 
@@ -132,7 +132,7 @@ int Hangman:: guessLetter(char ch) {
     
     if (notUpdated) chances--;
     
-    if (chances < 0) {
+    if (chances <= 0) {
         return 0;
     } else if (wordToGuess == secretWord) {
         return 1;
