@@ -9,9 +9,9 @@ In the project directory, execute the following command in terminal
 >./play
 
 ### Sample Run
->Use default dictionary set? [y/n] y
->Enter seed: 6
->+--+-
+> Use default dictionary set? [y/n] y
+> Enter seed: 6
+> +--+-
 >|
 >|
 >|
