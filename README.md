@@ -5,8 +5,7 @@ This is a Hangman game implemented in C++. In a Hangman game, there will be a se
 ### How to run game
 In the project directory, execute the following command in terminal. 
 ```bash
-$ make
-$ play
+$ make && play
 ```
 
 Reference: CUHK CSCI1520, Spring 2021/22 Asm6 
